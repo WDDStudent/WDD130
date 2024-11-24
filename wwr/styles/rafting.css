@@ -39,6 +39,11 @@ p {
     text-decoration: none;
 }
 
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -47,6 +52,6 @@ p {
 
 article img {
     float: right;
-    width: 150;
+    width: 150px;
     height: auto;
 }
