@@ -44,3 +44,9 @@ p {
     width: 100%;
     height: auto;
 }
+
+article img {
+    float: right;
+    width: 150;
+    height: auto;
+}
