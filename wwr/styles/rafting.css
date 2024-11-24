@@ -1,0 +1,46 @@
+:root {
+    --heading-font-family: "Sour Gummy", sans-serif;
+    --heading-font-weight: 500;
+    --heading-text-color: #020887;
+    --heading-background-color: #707078;
+    --body-font-family: "Faculty Glyphic";
+    --body-font-weight: 400;
+    --body-text-color: #FAFFFD;
+    --body-background-color: #000000;
+}
+
+h1 {
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    color: var(--heading-text-color);
+    background-color: var(--heading-background-color);
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    color: var(--heading-text-color);
+    background-color: var(--heading-background-color);
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--body-text-color);
+    background-color: var(--body-background-color);
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
