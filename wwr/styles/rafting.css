@@ -161,3 +161,104 @@ figure {
     text-align: center;
     padding: 1rem;
 }
+
+.contacts {
+    display: grid;
+}
+
+.contacts p {
+    width: 405px;
+    text-align: center;
+}
+
+.contacts fieldset {
+    margin-bottom: .5rem;
+    margin-left: 5rem;
+    width: 41px;
+}
+
+.staff img {
+    width: 150px;
+    height: auto;
+}
+
+.staff fieldset{
+    width: 550px;
+    height: 950px;
+    position: relative;
+    left: 525px;
+    bottom: 463px;
+}
+
+.staff h4 {
+    width: 150px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+.staff p {
+    width: 300px;
+    position: relative;
+    left: 175px;
+    bottom: 200px;
+}
+
+.form fieldset {
+    width: 405px;
+    height: 493px;
+    position: relative;;
+    bottom: 975px;
+    margin-left: 5rem;
+    font-family: var(--body-font-family);
+}
+
+.form label {
+    margin: 1rem;
+}
+
+.form-item {
+    margin: 1rem;
+}
+
+.problem  {
+    text-align: left;
+}
+
+.form textarea {
+    position: absolute;
+    left: 50px;
+    width: 300px;
+    margin-top: 2rem;
+}
+
+.newsletter input {
+    margin-top: 7rem;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    margin-top: 2rem;
+    left: 75px;
+    background-color: var(--heading-background-color);
+    color: #FAFFFD;
+    font-family: var(--body-font-family);
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.purpose {
+    display: flex;
+}
+
+.reply {
+    margin-top: 2rem;
+}
+
+.wireframe {
+    color: #000000;
+}
