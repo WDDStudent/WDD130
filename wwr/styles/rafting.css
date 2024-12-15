@@ -5,8 +5,8 @@
     --heading-background-color: #707078;
     --body-font-family: "Faculty Glyphic";
     --body-font-weight: 400;
-    --body-text-color: #FAFFFD;
-    --body-background-color: #000000;
+    --body-text-color: #000000;
+    --body-background-color: #FAFFFD;
 }
 
 a:visited {
@@ -188,6 +188,8 @@ figure {
     position: relative;
     left: 525px;
     bottom: 463px;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 .staff h2 {
@@ -259,6 +261,113 @@ button:hover {
     margin-top: 2rem;
 }
 
-.wireframe {
+.wireframe a:link {
+    color: #000000;
+}
+
+.hero h6 {
+    font-size: 36px;
+    position: absolute;
+    bottom: 250px;
+    left: 225px;
+    padding: .5rem;
+}
+
+.index-field fieldset {
+    width: 275px;
+    font-family: var(--body-font-family);
+}
+
+.promotions {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    position: absolute;
+    border: 3px solid #020887;
+    width: 650px;
+    height: 135px;
+    left: 450px;
+    bottom: -450px;
+    text-align: center;
+    background-color: #707078;
+}
+
+.action h1, .contact-action h1 {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 400px;
+    font-size: 30px;
+}
+
+.action a, .contact-action a {
+    font-family: var(--body-font-family);
+    font-size: 24px;
+}
+
+.action p, .contact-action p {
+    margin-top: 3rem;
+    background: #707078;
+    color: #FAFFFD;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10rem;
+}
+
+.sharkinfo {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.trip img {
+    width: 200px;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(140 140 140);
+    font-family: var(--body-font-family);
+    font-size: 0.8rem;
+    text-align: center;
+    width: 500px;
+  }
+
+
+th, td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+.contact-action {
+    position: absolute;
+    border: 3px solid #020887;
+    width: 500px;
+    height: 135px;
+    left: 600px;
+    bottom: -35px;
+    text-align: center;
+    background-color: #707078;
+}
+
+.contact-action h1 {
+    width: 500px;
+    left: 0;
+}
+
+.frame a:link {
     color: #000000;
 }
